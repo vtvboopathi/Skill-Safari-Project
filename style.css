@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Rubik:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    overflow: hidden;
+    /* width: 100vw; */
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+}
+
+nav{
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    color: #fff;  
+}
+
+.top{
+    height: 60vh;
+}
+
+.top-left{
+    width: 57vw;
+    height: 60vh;
+}
+
+.top-left-cont{
+    background: url(desktop-image-hero-1.jpg);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-right{
+    width: 43vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+.float{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    align-content: flex-end;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.black{
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.centre{
+    padding: 50px;
+    gap: 50px;
+    margin-top: -60px;
+}
+
+.logo{
+    padding: 30px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    padding: 30px;
+}
+
+ul li{
+    padding-left: 20px;
+}
+
+
+.bottom{
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.para{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+}
